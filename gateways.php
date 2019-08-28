@@ -2,11 +2,10 @@
 
 return [
     'Dummy',
-    'Mollie',
+    'Manual',
+    'Monetico',
     'PayPal_Express',
     'PayPal_ExpressInContext',
     'PayPal_Pro',
     'PayPal_Rest',
-    'Stripe',
-    'Monetico'
 ];

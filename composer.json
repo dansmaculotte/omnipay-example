@@ -16,17 +16,19 @@
         }
     ],
     "require": {
+        "dansmaculotte/omnipay-monetico": "dev-master",
         "league/omnipay": "^3",
-        "silex/silex": "~1.1",
-        "twig/twig": "~1.12",
         "omnipay/dummy": "^3.0",
+        "omnipay/manual": "^3.0",
         "omnipay/paypal": "^3.0",
-        "omnipay/stripe": "^3.0",
-        "omnipay/mollie": "^4.0",
-        "dansmaculotte/omnipay-monetico": "dev-master"
+        "silex/silex": "~1.1",
+        "twig/twig": "~1.12"
     },
     "scripts": {
         "serve": "@php -S localhost:8080 -t public public/index.php"
+    },
+    "config": {
+        "sort-packages": true
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
