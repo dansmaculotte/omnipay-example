@@ -335,4 +335,4 @@ $app->post('/gateways/{name}/delete-card', function($name) use ($app) {
     ));
 });
 
-$app->run();
+return $app;

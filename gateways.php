@@ -8,4 +8,5 @@ return [
     'PayPal_Pro',
     'PayPal_Rest',
     'Stripe',
+    'Monetico'
 ];
