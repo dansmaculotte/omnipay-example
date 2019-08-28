@@ -1,4 +1,4 @@
-# Omnipay: Example Application
+# Omnipay: Example Application for Monetico
  
 This is an example web application built using the [Silex micro-framework](http://silex.sensiolabs.org/).
 It demonstrates using Omnipay to process payments using all supported payment gateways.
@@ -6,23 +6,14 @@ It demonstrates using Omnipay to process payments using all supported payment ga
 ## Getting Started
 
 To run the example application, you must first install the development dependencies via composer.
-From the root `omnipay` directory, run `composer install`.
+From the root directory, run `composer install`.
 
-## Configuration
+## Usage
 
-A few gateways are added by default. You can require the gateways you want to test with Composer, eg:
-
+Run development server and go to [http://localhost:8080](http://localhost:8080)
+```bash
+composer serve
 ```
-composer require omnipay/paypal
-```
-
-Then add the gateway to the `gateways.php` configuration file.
-
-To test a gateway, you will need to have access to valid credentials. To obtain valid credentials,
-contact the payment gateway's support.
-
-You can configure a gateways settings in the application. All data is stored using regular PHP
-sessions, so will not be persisted between sessions.
 
 ## Support
 
